@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-#include  "schedular.cpp"
+#include  "multiprogramming1.cpp"
 int main()
 {
-	Scheduler t;
+	MultiProgramming t;
 	t.schedule();
 	return 0;
 }

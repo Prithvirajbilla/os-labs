@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-#include  "schedular.cpp"
+#include  "timesharing.cpp"
 int main()
 {
-	Scheduler t;
+	TimeSharing t(2);
 	t.schedule();
 	return 0;
 }

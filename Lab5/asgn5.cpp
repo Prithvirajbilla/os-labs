@@ -24,8 +24,11 @@ struct sc_level{
 
 struct scheduler{
 	int no_levels;
-	vector<sc_level> levels;
+	list<sc_level> levels;
 };
+
+bool operator< (const sc_level &s1, const sc_level &s2) {return s1.priority >  s2.priority;}
+
 
 vector<process> process_list;
 scheduler my_scheduler;
