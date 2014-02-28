@@ -1,0 +1,11 @@
+Members
+=======
+
+Kartik Pranav K 110050062
+Prithviraj M Billa 110050065
+
+To compile the project
+
+$ g++ pthread.cpp -lpthread -std=c++0x -o out -g
+$ ./out
+
